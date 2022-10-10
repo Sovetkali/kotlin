@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: let cost = 500
+- text: name = "John"
+- text: var x = 10
+- text: val = 5
+- text: val greeting = "Hi"
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4377#comment
+status: Solved
+record: -1
+selected_options:
+- 2
+- 4
+local_check: false

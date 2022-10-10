@@ -1,0 +1,37 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun solution(names: List<String>): Int {
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20606#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:3:21: error: expression 'size' of type 'Int' cannot be invoked as a function. The function 'invoke()' is not found
+        for (i in names.size() step 2) {
+                        ^
+    main.kt:5:29: error: cannot access 'indexOf': it is private in file
+                return names[i].indexOf()
+                                ^
+    main.kt:5:37: error: no value passed for parameter 'other'
+                return names[i].indexOf()
+                                        ^
+    main.kt:5:37: error: no value passed for parameter 'startIndex'
+                return names[i].indexOf()
+                                        ^
+    main.kt:5:37: error: no value passed for parameter 'endIndex'
+                return names[i].indexOf()
+                                        ^
+    main.kt:5:37: error: no value passed for parameter 'ignoreCase'
+                return names[i].indexOf()
+                                        ^
+    main.kt:8:1: error: a 'return' expression required in a function with a block body ('{...}')
+    }
+    ^
+  time: Sat, 17 Sep 2022 14:29:57 UTC
+record: -1
